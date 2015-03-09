@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1B10C41AAABDC1009E8B54 /* MASShortcutMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B10C31AAABDC1009E8B54 /* MASShortcutMonitor.swift */; };
+		3D1B10C61AAABDD6009E8B54 /* MASShortcutBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B10C51AAABDD6009E8B54 /* MASShortcutBinder.swift */; };
+		3D1BC9BD1AAA66E80033E2C5 /* MASHotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BC9BC1AAA66E80033E2C5 /* MASHotKey.swift */; };
+		3D6949361A9D77590071D43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6949351A9D77590071D43E /* AppDelegate.swift */; };
+		3D6949381A9D77590071D43E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6949371A9D77590071D43E /* Images.xcassets */; };
+		3D69493B1A9D77590071D43E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6949391A9D77590071D43E /* MainMenu.xib */; };
+		3D6949471A9D77590071D43E /* SwiftMASShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6949461A9D77590071D43E /* SwiftMASShortcutTests.swift */; };
+		3DA95F4B1AAAA99C009576E3 /* MASDictionaryTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA95F4A1AAAA99C009576E3 /* MASDictionaryTransformer.swift */; };
+		3DBF545A1AA12EAE00CB6F2E /* MASKeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF54591AA12EAE00CB6F2E /* MASKeyCodes.swift */; };
+		3DD3C96F1AAC249600C228D0 /* MASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3C96E1AAC249600C228D0 /* MASC.m */; };
+		3DD3EF0A1A9E84330043D3C5 /* MASShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3EF091A9E84330043D3C5 /* MASShortcut.swift */; };
+		3DE269231AA17D5F00665EFB /* MASShortcutView+Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE269221AA17D5F00665EFB /* MASShortcutView+Bindings.swift */; };
+		3DE269251AA188F600665EFB /* MASShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE269241AA188F600665EFB /* MASShortcutView.swift */; };
+		3DFF31B21AA01E50003C77B8 /* MASShortcutValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF31B11AA01E50003C77B8 /* MASShortcutValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D6949411A9D77590071D43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6949281A9D77590071D43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D69492F1A9D77590071D43E;
+			remoteInfo = SwiftMASShortcut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1B10C31AAABDC1009E8B54 /* MASShortcutMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASShortcutMonitor.swift; sourceTree = "<group>"; };
+		3D1B10C51AAABDD6009E8B54 /* MASShortcutBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASShortcutBinder.swift; sourceTree = "<group>"; };
+		3D1BC9BC1AAA66E80033E2C5 /* MASHotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASHotKey.swift; sourceTree = "<group>"; };
+		3D6949301A9D77590071D43E /* SwiftMASShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMASShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6949341A9D77590071D43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6949351A9D77590071D43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D6949371A9D77590071D43E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D69493A1A9D77590071D43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D6949401A9D77590071D43E /* SwiftMASShortcutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMASShortcutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6949451A9D77590071D43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6949461A9D77590071D43E /* SwiftMASShortcutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMASShortcutTests.swift; sourceTree = "<group>"; };
+		3D6949501A9D78590071D43E /* SwiftMASShortcut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftMASShortcut-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DA95F4A1AAAA99C009576E3 /* MASDictionaryTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASDictionaryTransformer.swift; sourceTree = "<group>"; };
+		3DBF54591AA12EAE00CB6F2E /* MASKeyCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASKeyCodes.swift; sourceTree = "<group>"; };
+		3DD3C96D1AAC249600C228D0 /* MASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASC.h; sourceTree = "<group>"; };
+		3DD3C96E1AAC249600C228D0 /* MASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASC.m; sourceTree = "<group>"; };
+		3DD3EF091A9E84330043D3C5 /* MASShortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASShortcut.swift; sourceTree = "<group>"; };
+		3DE269221AA17D5F00665EFB /* MASShortcutView+Bindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MASShortcutView+Bindings.swift"; sourceTree = "<group>"; };
+		3DE269241AA188F600665EFB /* MASShortcutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASShortcutView.swift; sourceTree = "<group>"; };
+		3DFF31B11AA01E50003C77B8 /* MASShortcutValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASShortcutValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D69492D1A9D77590071D43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D69493D1A9D77590071D43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6949271A9D77590071D43E = {
+			isa = PBXGroup;
+			children = (
+				3D6949771A9D78D10071D43E /* Model */,
+				3D6949761A9D78B70071D43E /* Monitoring */,
+				3D6949751A9D78930071D43E /* User Defaults Storage */,
+				3D6949741A9D786E0071D43E /* UI */,
+				3D6949321A9D77590071D43E /* Demo */,
+				3D6949431A9D77590071D43E /* SwiftMASShortcutTests */,
+				3D6949311A9D77590071D43E /* Products */,
+				3D6949501A9D78590071D43E /* SwiftMASShortcut-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6949311A9D77590071D43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6949301A9D77590071D43E /* SwiftMASShortcut.app */,
+				3D6949401A9D77590071D43E /* SwiftMASShortcutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6949321A9D77590071D43E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3D6949351A9D77590071D43E /* AppDelegate.swift */,
+				3D6949371A9D77590071D43E /* Images.xcassets */,
+				3D6949391A9D77590071D43E /* MainMenu.xib */,
+				3D6949331A9D77590071D43E /* Supporting Files */,
+			);
+			name = Demo;
+			path = SwiftMASShortcut;
+			sourceTree = "<group>";
+		};
+		3D6949331A9D77590071D43E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6949341A9D77590071D43E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D6949431A9D77590071D43E /* SwiftMASShortcutTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6949461A9D77590071D43E /* SwiftMASShortcutTests.swift */,
+				3D6949441A9D77590071D43E /* Supporting Files */,
+			);
+			path = SwiftMASShortcutTests;
+			sourceTree = "<group>";
+		};
+		3D6949441A9D77590071D43E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6949451A9D77590071D43E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D6949741A9D786E0071D43E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3DE269241AA188F600665EFB /* MASShortcutView.swift */,
+				3DE269221AA17D5F00665EFB /* MASShortcutView+Bindings.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		3D6949751A9D78930071D43E /* User Defaults Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3DA95F4A1AAAA99C009576E3 /* MASDictionaryTransformer.swift */,
+				3D1B10C51AAABDD6009E8B54 /* MASShortcutBinder.swift */,
+			);
+			name = "User Defaults Storage";
+			sourceTree = "<group>";
+		};
+		3D6949761A9D78B70071D43E /* Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				3D1BC9BC1AAA66E80033E2C5 /* MASHotKey.swift */,
+				3DD3C96D1AAC249600C228D0 /* MASC.h */,
+				3DD3C96E1AAC249600C228D0 /* MASC.m */,
+				3D1B10C31AAABDC1009E8B54 /* MASShortcutMonitor.swift */,
+			);
+			name = Monitoring;
+			sourceTree = "<group>";
+		};
+		3D6949771A9D78D10071D43E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DBF54591AA12EAE00CB6F2E /* MASKeyCodes.swift */,
+				3DFF31B11AA01E50003C77B8 /* MASShortcutValidator.swift */,
+				3DD3EF091A9E84330043D3C5 /* MASShortcut.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D69492F1A9D77590071D43E /* SwiftMASShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D69494A1A9D77590071D43E /* Build configuration list for PBXNativeTarget "SwiftMASShortcut" */;
+			buildPhases = (
+				3D69492C1A9D77590071D43E /* Sources */,
+				3D69492D1A9D77590071D43E /* Frameworks */,
+				3D69492E1A9D77590071D43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMASShortcut;
+			productName = SwiftMASShortcut;
+			productReference = 3D6949301A9D77590071D43E /* SwiftMASShortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D69493F1A9D77590071D43E /* SwiftMASShortcutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D69494D1A9D77590071D43E /* Build configuration list for PBXNativeTarget "SwiftMASShortcutTests" */;
+			buildPhases = (
+				3D69493C1A9D77590071D43E /* Sources */,
+				3D69493D1A9D77590071D43E /* Frameworks */,
+				3D69493E1A9D77590071D43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6949421A9D77590071D43E /* PBXTargetDependency */,
+			);
+			name = SwiftMASShortcutTests;
+			productName = SwiftMASShortcutTests;
+			productReference = 3D6949401A9D77590071D43E /* SwiftMASShortcutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6949281A9D77590071D43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Charlesism;
+				TargetAttributes = {
+					3D69492F1A9D77590071D43E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3D69493F1A9D77590071D43E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3D69492F1A9D77590071D43E;
+					};
+				};
+			};
+			buildConfigurationList = 3D69492B1A9D77590071D43E /* Build configuration list for PBXProject "SwiftMASShortcut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6949271A9D77590071D43E;
+			productRefGroup = 3D6949311A9D77590071D43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D69492F1A9D77590071D43E /* SwiftMASShortcut */,
+				3D69493F1A9D77590071D43E /* SwiftMASShortcutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D69492E1A9D77590071D43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6949381A9D77590071D43E /* Images.xcassets in Resources */,
+				3D69493B1A9D77590071D43E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D69493E1A9D77590071D43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D69492C1A9D77590071D43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE269251AA188F600665EFB /* MASShortcutView.swift in Sources */,
+				3DD3C96F1AAC249600C228D0 /* MASC.m in Sources */,
+				3DD3EF0A1A9E84330043D3C5 /* MASShortcut.swift in Sources */,
+				3DBF545A1AA12EAE00CB6F2E /* MASKeyCodes.swift in Sources */,
+				3D1BC9BD1AAA66E80033E2C5 /* MASHotKey.swift in Sources */,
+				3DE269231AA17D5F00665EFB /* MASShortcutView+Bindings.swift in Sources */,
+				3DFF31B21AA01E50003C77B8 /* MASShortcutValidator.swift in Sources */,
+				3D6949361A9D77590071D43E /* AppDelegate.swift in Sources */,
+				3D1B10C61AAABDD6009E8B54 /* MASShortcutBinder.swift in Sources */,
+				3D1B10C41AAABDC1009E8B54 /* MASShortcutMonitor.swift in Sources */,
+				3DA95F4B1AAAA99C009576E3 /* MASDictionaryTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D69493C1A9D77590071D43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6949471A9D77590071D43E /* SwiftMASShortcutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D6949421A9D77590071D43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D69492F1A9D77590071D43E /* SwiftMASShortcut */;
+			targetProxy = 3D6949411A9D77590071D43E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D6949391A9D77590071D43E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D69493A1A9D77590071D43E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6949481A9D77590071D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SwiftMASShortcut;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D6949491A9D77590071D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftMASShortcut;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D69494B1A9D77590071D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftMASShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMASShortcut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D69494C1A9D77590071D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftMASShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMASShortcut-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3D69494E1A9D77590071D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMASShortcutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMASShortcut.app/Contents/MacOS/SwiftMASShortcut";
+			};
+			name = Debug;
+		};
+		3D69494F1A9D77590071D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMASShortcutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMASShortcut.app/Contents/MacOS/SwiftMASShortcut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D69492B1A9D77590071D43E /* Build configuration list for PBXProject "SwiftMASShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6949481A9D77590071D43E /* Debug */,
+				3D6949491A9D77590071D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D69494A1A9D77590071D43E /* Build configuration list for PBXNativeTarget "SwiftMASShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D69494B1A9D77590071D43E /* Debug */,
+				3D69494C1A9D77590071D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D69494D1A9D77590071D43E /* Build configuration list for PBXNativeTarget "SwiftMASShortcutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D69494E1A9D77590071D43E /* Debug */,
+				3D69494F1A9D77590071D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6949281A9D77590071D43E /* Project object */;
+}
